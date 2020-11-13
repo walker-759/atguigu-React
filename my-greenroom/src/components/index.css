@@ -1,0 +1,21 @@
+.card {
+  width: 100%;
+  background-color: #fff;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+.card .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.card .card-header .card-icon {
+  cursor: pointer;
+}
+.card .card-content {
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+}
+.card .card-content > div {
+  width: 100%;
+}

@@ -1,0 +1,135 @@
+.videoWrap {
+  width: 100%;
+  height: calc(100vh - 86px);
+  background-color: #fff;
+  color: #000;
+}
+.videoWrap .videoBlock {
+  width: 750px;
+  height: 380px;
+  background-color: #000;
+}
+.videoWrap .videoState1 .brief {
+  padding: 0 26px;
+}
+.videoWrap .videoState1 .brief .top {
+  display: flex;
+  justify-content: space-between;
+  line-height: 80px;
+  height: 80px;
+}
+.videoWrap .videoState1 .brief .top .videoname {
+  font-size: 32px;
+  font-weight: bold;
+  width: 400px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.videoWrap .videoState1 .brief .top .operation span {
+  margin-left: 6px;
+  font-size: 26px;
+}
+.videoWrap .videoState1 .brief .bottom {
+  height: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.videoWrap .videoState1 .brief .bottom span {
+  font-size: 40px;
+  margin: 0 16px;
+  line-height: 60px;
+}
+.videoWrap .videoState1 .recommendBlock {
+  height: calc(100vh - 606px);
+  padding: 0 26px;
+}
+.videoWrap .videoState1 .recommendBlock .title {
+  font-size: 30px;
+  padding: 20px 0;
+}
+.videoWrap .videoState1 .recommendBlock .recommendList {
+  overflow: auto;
+  height: calc(100vh - 680px);
+  width: 100%;
+}
+.videoWrap .videoState1 .recommendBlock .recommendList .recommendItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.videoWrap .videoState1 .recommendBlock .recommendList .recommendItem img {
+  width: 370px;
+  height: 250px;
+}
+.videoWrap .videoState1 .recommendBlock .recommendList .recommendItem .brief .videoname {
+  font-size: 30px;
+  margin-bottom: 20px;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.videoWrap .videoState1 .recommendBlock .recommendList .recommendItem .brief .time {
+  color: #a0a0a0;
+}
+.videoWrap .videoState1 .recommendBlock .recommendList .moreVideo {
+  margin: 20px 0;
+}
+.commentsList {
+  height: calc(100vh - 616px);
+  overflow: auto;
+}
+.commentsList .am-list .am-list-header {
+  font-size: 28px;
+  color: #000;
+}
+.commentsList .commentsWrap {
+  margin-top: 20px;
+  padding: 0 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.commentsList .commentsWrap .commentsItem {
+  padding: 20px 0;
+}
+.commentsList .commentsWrap .commentsItem .top {
+  position: relative;
+  padding: 10px 0 20px 0;
+  font-size: 28px;
+}
+.commentsList .commentsWrap .commentsItem .top .userheadBlock {
+  position: absolute;
+  left: -60px;
+  top: 2px;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+}
+.commentsList .commentsWrap .commentsItem .top .userheadBlock .userhead {
+  width: 50px;
+  height: 50px;
+}
+.commentsList .commentsWrap .commentsItem .top .name {
+  color: skyblue;
+}
+.commentsList .commentsWrap .commentsItem .top .time {
+  font-size: 18px;
+  margin-left: 30px;
+  color: #a0a0a0;
+}
+.commentsList .commentsWrap .commentsItem .text {
+  padding: 10px 0 20px 0;
+  vertical-align: middle;
+}
+.commentsList .commentsWrap .commentsItem .imageBlock {
+  display: flex;
+  justify-content: flex-start;
+}
+.commentsList .commentsWrap .commentsItem .imageBlock .image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}

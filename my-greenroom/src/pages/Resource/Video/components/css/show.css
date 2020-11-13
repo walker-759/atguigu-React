@@ -1,0 +1,36 @@
+.showblock .showItem {
+  margin-left: 30px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.showblock .showItem img {
+  width: 200px;
+  height: 112px;
+}
+.showblock .showItem .title {
+  margin-right: 20px;
+  width: 120px;
+}
+.showblock .elseVideos .elseVideosItem {
+  display: flex;
+}
+.showblock .elseVideos .elseVideosItem .contant {
+  margin-right: 30px;
+}
+.showblock .elseVideos .elseVideosItem .contant .xinxi {
+  display: flex;
+}
+.showblock .elseVideos .elseVideosItem .contant .xinxi .title {
+  width: 80px;
+}
+.showblock .videourl {
+  display: flex;
+}
+.showblock .videourl .video {
+  width: 300px;
+  height: 300px;
+}
+.showblock .videourl .video img {
+  width: 100%;
+  height: 100%;
+}

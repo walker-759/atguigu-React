@@ -1,0 +1,48 @@
+.loginWrap {
+  width: 100%;
+  height: calc(100vh - 86px);
+  background-color: #fff;
+  color: #000;
+}
+.loginWrap .logo {
+  margin-top: 130px;
+  margin-bottom: 90px;
+  width: 100%;
+}
+.loginWrap .form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+}
+.loginWrap .form .inputblock {
+  position: relative;
+}
+.loginWrap .form .inputblock .icon {
+  position: absolute;
+  font-size: 36px;
+  top: 16px;
+  left: 10px;
+}
+.loginWrap .form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  line-height: 66px;
+  text-indent: 60px;
+}
+.loginWrap .form .btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #fd5790;
+  border: none;
+  height: 80px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 32px;
+}
+.loginWrap .form .operation {
+  display: flex;
+  justify-content: space-between;
+}

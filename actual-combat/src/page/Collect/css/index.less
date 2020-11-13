@@ -1,0 +1,65 @@
+.collectWrap{
+    width: 100%;
+    height: calc(100vh - 86px);
+    background-color: #fff;
+    color: #000;
+    .operation{
+        position: fixed;
+        width: 100%;
+        height: 90px;
+        background-color: #eee;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-around;
+        line-height: 90px;
+    }
+    .operation1{
+        display: none;
+    }
+    .collecItemList{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 20px 0 20px;
+        height: calc(100vh - 86px);
+        overflow: auto;
+        .collecItem{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            .left{
+                font-size: 40px;
+                // display: none;
+                visibility: hidden;
+            }
+            .left1{
+                font-size: 40px;
+                visibility: initial;
+                transition: all 1s;
+            }
+            .center{
+                width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                img{
+                    width: 366px;
+                    height: 200px;
+                }
+                .text{
+                    width: 200px;
+                    height: 80px;
+                    .name{
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        margin-bottom: 20px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
